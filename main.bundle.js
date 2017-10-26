@@ -534,7 +534,7 @@ exports = module.exports = __webpack_require__(14)();
 
 
 // module
-exports.push([module.i, "#recipe-detail {\r\n\tborder: 2px solid black;\r\n\tborder-radius: 10px;\r\n\tbox-shadow: 10px 10px 5px #888888;\r\n\tpadding: 10px;\r\n\tmargin-bottom: 10px;\r\n\tbackground-color: #8b9692;\r\n}\r\n\r\n.row {\r\n\tmargin-bottom: 10px;\r\n}", ""]);
+exports.push([module.i, "#recipe-detail {\r\n\tborder: 2px solid black;\r\n\tborder-radius: 10px;\r\n\tbox-shadow: 10px 10px 5px #888888;\r\n\tpadding: 10px;\r\n\tmargin-bottom: 10px;\r\n}\r\n\r\n.row {\r\n\tmargin-bottom: 10px;\r\n}", ""]);
 
 // exports
 
