@@ -1,0 +1,12 @@
+.list-group-item-text {
+	font-style: italic;
+}
+
+a:hover {
+	box-shadow: 10px 10px 10px; 
+	margin-right: +5px;
+	margin-bottom: +5px;
+	margin-left: -5px;
+	margin-top: -5px;
+	transition: box-shadow 0.5s;
+}

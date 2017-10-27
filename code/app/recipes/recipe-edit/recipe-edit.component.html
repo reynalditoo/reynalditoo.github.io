@@ -1,6 +1,6 @@
-<div class="row">
+<div id="recipe-edit" class="row">
   <div class="col-xs-12">
-    <form [formGroup]="recipeForm" (ngSubmit)="onSubmit()">
+    <form [formGroup]="recipeForm" (ngSubmit)="onSubmit()"> <!-- REACTIVE FORM !! -->
       <div class="row">
         <div class="col-xs-12">
           <button
@@ -10,6 +10,7 @@
           <button type="button" class="btn btn-danger" (click)="onCancel()">Cancel</button>
         </div>
       </div>
+
       <div class="row">
         <div class="col-xs-12">
           <div class="form-group">
@@ -20,8 +21,10 @@
               formControlName="name"
               class="form-control">
           </div>
+          <p *ngIf="recipeForm.get('name').hasError('required') && recipeForm.get('name').touched">Please enter a name</p>
         </div>
       </div>
+
       <div class="row">
         <div class="col-xs-12">
           <div class="form-group">
@@ -33,14 +36,17 @@
               class="form-control"
               #imagePath>
           </div>
+          <p *ngIf="recipeForm.get('imagePath').hasError('required') && recipeForm.get('imagePath').touched">Please enter a URL</p>
         </div>
       </div>
+
       <div class="row">
         <div class="col-xs-12">
           <img [src]="imagePath.value" class="img-responsive">
         </div>
       </div>
-      <div class="row">
+
+      <div class="row description">
         <div class="col-xs-12">
           <div class="form-group">
             <label for="description">Description</label>
@@ -51,8 +57,10 @@
               formControlName="description"
               rows="6"></textarea>
           </div>
+          <p *ngIf="recipeForm.get('description').hasError('required') && recipeForm.get('description').touched">Please enter a description</p>
         </div>
       </div>
+
       <div class="row">
         <div class="col-xs-12" formArrayName="ingredients">
           <div

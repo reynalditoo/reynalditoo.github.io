@@ -4,7 +4,8 @@ import { Response } from '@angular/http';
 
 @Component({
   selector: 'app-header',
-  templateUrl: './header.component.html'
+  templateUrl: './header.component.html',
+  styleUrls: ['./header.component.css']
 })
 export class HeaderComponent {
 	constructor(private dataStorageService: DataStorageService) {}

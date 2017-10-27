@@ -589,7 +589,7 @@ exports = module.exports = __webpack_require__(14)();
 
 
 // module
-exports.push([module.i, ".list-group-item-text {\r\n\tfont-style: italic;\r\n}", ""]);
+exports.push([module.i, ".list-group-item-text {\r\n\tfont-style: italic;\r\n}\r\n\r\na:hover {\r\n\tbox-shadow: 10px 10px 10px; \r\n\tmargin-right: +5px;\r\n\tmargin-bottom: +5px;\r\n\tmargin-left: -5px;\r\n\tmargin-top: -5px;\r\n\ttransition: box-shadow 0.5s;\r\n}", ""]);
 
 // exports
 
@@ -699,7 +699,7 @@ module.exports = "<app-header></app-header>\n<div class=\"container\">\n  <div c
 /***/ 231:
 /***/ (function(module, exports) {
 
-module.exports = "<nav class=\"navbar navbar-default\">\n  <div class=\"container-fluid\">\n    <div class=\"navbar-header\">\n      <a routerLink=\"/\" class=\"navbar-brand\">Recipe Book</a>\n    </div>\n\n    <div class=\"collapse navbar-collapse\">\n      <ul class=\"nav navbar-nav\">\n        <li routerLinkActive=\"active\"><a routerLink=\"/recipes\">Recipes</a></li>\n        <li routerLinkActive=\"active\"><a routerLink=\"/shopping-list\">Shopping List</a></li>\n      </ul>\n      <p style=\"text-align: center;\">ANGULAR 4 PROJECT</p>\n    </div>\n  </div>\n</nav>\n"
+module.exports = "<nav class=\"navbar navbar-default\">\n  <div class=\"container-fluid\">\n    <div class=\"navbar-header\">\n      <a routerLink=\"/\" class=\"navbar-brand\">Recipe Book</a>\n    </div>\n\n    <div class=\"collapse navbar-collapse\">\n      <ul class=\"nav navbar-nav\">\n        <li routerLinkActive=\"active\"><a routerLink=\"/recipes\">Recipes</a></li>\n        <li routerLinkActive=\"active\"><a routerLink=\"/shopping-list\">Shopping List</a></li>\n      </ul>\n      <p>ANGULAR 4 PROJECT</p>\n    </div>\n  </div>\n</nav>\n"
 
 /***/ }),
 

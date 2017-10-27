@@ -1,0 +1,10 @@
+nav {
+	font-family: 'Slabo';
+}
+
+.navbar-collapse p {
+	text-align: center;
+	font-family: 'Cinzel';
+	margin-top: 6px;
+    font-size: x-large;
+}
